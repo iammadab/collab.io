@@ -1,0 +1,1 @@
+We should only ask for the if its not set or the user is not on the server

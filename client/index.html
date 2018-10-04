@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Collab.io</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<nav>Collab.io</nav>
+	<div class="chat">
+	</div>
+	<form>
+		<input type="text" placeholder="type your message">
+	</form>
+
+	<div class="embeded con-center con-col">
+		<div class="message">This is an error</div>
+		<form class="con-center con-col">
+			<input type="text" placeholder="Choose your screen name" class="username" autocomplete="off" />
+			<button type="submit">Enter collab.io</button>
+		</form>
+	</div>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="./dom.js"></script>
+	<script src="./loose.js"></script>
+	<script src="./script.js"></script>
+	<script type="text/javascript">
+		let socket = io()
+		socket.on("new-message", function(data){
+			console.log("every one has received the data")
+			mainChannel.emit("addMessage", data)
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Wisdom.Ogwu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express --save
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 & MySQL Utilities 1.5.4 1.5\;C:\Program Files\Sublime Text 3\;C:\Users\Wisdom.Ogwu\Downloads\Jad;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\Heroku\bin;c:/program files/mongodb/server/3.2/bin;c:/netSet/;C:\Program Files\Git\cmd;C:\Program Files (x86)\VideoLAN\VLC;C:\Users\Wisdom.Ogwu\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Tesseract-OCR\;C:\Users\Wisdom.Ogwu\Anaconda3;C:\Users\Wisdom.Ogwu\Anaconda3\Library\mingw-w64\bin;C:\Users\Wisdom.Ogwu\Anaconda3\Library\usr\bin;C:\Users\Wisdom.Ogwu\Anaconda3\Library\bin;C:\Users\Wisdom.Ogwu\Anaconda3\Scripts;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.1.0\bin;C:\Ruby200-x64\bin;C:\Ruby22\bin;C:\Program Files (x86)\Nmap;C:\Users\Wisdom.Ogwu\AppData\Local\Microsoft\WindowsApps;C:/Users/Wisdom.Ogwu/usefulScripts/;C:\Program Files (x86)\Microsoft VS Code\;c/Users/Wisdom.Ogwu/AppData/Local/Programs/Python/Python36/Scripts/;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files (x86)\Google\Chrome\Application;c:/program files/sublime text 3.2;C:\Users\Wisdom.Ogwu\usefulScripts\phantomjs-2.1.1-windows\bin;C:\Users\Wisdom.Ogwu\AppData\Roaming\npm;
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  8.7.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOENT registry.yarnpkg.com:443
+      at Object._errnoException (util.js:1021:11)
+      at errnoException (dns.js:58:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:95:26)
